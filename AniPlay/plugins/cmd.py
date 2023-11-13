@@ -8,7 +8,7 @@ from AniPlay.plugins.button import BTN
 @app.on_message(filters.command(['start', 'ping', 'help', 'alive']))
 async def start(_, message: Message):
     try:
-        await message.reply_text('Bot Is Online...\n\nSearch Animes Using /search or /s')
+        await message.reply_text('Bot Is Online...\n\nSearch Animes Using /search <anime name> or /s <anime name>')
     except:
         return
 
