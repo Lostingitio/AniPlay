@@ -8,7 +8,13 @@ from AniPlay.plugins.button import BTN
 @app.on_message(filters.command(['start', 'ping', 'help', 'alive']))
 async def start(_, message: Message):
     try:
-        await message.reply_text('Bot Is Online...\n\nSearch Animes Using /search <anime name> or /s <anime name>')
+        await message.reply_video('https://te.legra.ph/file/95e080e5e47b5621fbf4c.mp4',caption="""𝗛𝗶 🦾
+
+𝗜 𝗮𝗺 𝗦𝗶𝗺𝗽𝗹𝗲 𝗔𝗻𝗶𝗺𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗕𝗼𝘁 👁
+
+𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲?
+
+/search <animename>""")
     except:
         return
 
