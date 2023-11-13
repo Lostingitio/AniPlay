@@ -1,3 +1,5 @@
 requests
 pyrogram
 TgCrypto
+aiohttp
+flask
